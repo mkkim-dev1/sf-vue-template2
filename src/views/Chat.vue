@@ -28,7 +28,7 @@
   import { ref, onMounted, onUnmounted } from 'vue';
   import { Packet } from './types'; // Packet 타입 가져오기
   
-  const socketUrl = 'ws://localhost:8080/ws';
+  const socketUrl = process.env.VUE_APP_WEBSOCKET_URL;
   const socket = ref<WebSocket | null>(null);
   const messages = ref<Packet[]>([]); // 메시지 배열을 Packet 타입으로 설정
   const message = ref<string>('');
