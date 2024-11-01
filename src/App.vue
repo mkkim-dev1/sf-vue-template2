@@ -32,27 +32,27 @@ import Menubar from 'primevue/menubar';
 const items = ref([
     {
         label: 'Books',
-        icon: 'pi pi-home',
+        icon: 'pi pi-book',
         route: '/books'
     },
     {
         label: 'Dashboard',
-        icon: 'pi pi-star',
+        icon: 'pi pi-chart-bar',
         route: '/dashboard'
     },
     {
         label: 'Chat',
-        icon: 'pi pi-star',
+        icon: 'pi pi-send',
         route: '/chat'
     },    
     {
         label: 'Profile',
-        icon: 'pi pi-star',
+        icon: 'pi pi-user',
         route: '/profile'
     },
     {
         label: 'About',
-        icon: 'pi pi-envelope',
+        icon: 'pi pi-question-circle',
         route: '/about'
     }
 ]);
